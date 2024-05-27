@@ -6,3 +6,4 @@ reports/
 build/
 yarn.lock
 .docusaurus
+*.md

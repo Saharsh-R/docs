@@ -2,5 +2,6 @@
     "editor.formatOnSave": true,
     "vim.useSystemClipboard": true,
     "vim.highlightedyank.enable": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.insertSpaces": true
 }

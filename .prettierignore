@@ -4,8 +4,6 @@ dist/**
 .eslintignore
 build/**
 .docusaurus
-*.md
 .husky/pre-commit
 yarn.lock
 git
-package-lock.json
