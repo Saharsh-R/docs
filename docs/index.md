@@ -7,3 +7,4 @@ sidebar_position: 1
 Here is all the interesting stuff I found regarding -
 
 -   [Vim](Vim/links)
+-   [DevTools](DevTools/links)
