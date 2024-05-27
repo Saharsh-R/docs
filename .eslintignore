@@ -1,0 +1,8 @@
+*.yml
+*.yaml
+node_modules/
+reports/
+.husky/pre-commit
+build/
+yarn.lock
+.docusaurus
