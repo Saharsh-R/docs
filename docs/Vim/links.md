@@ -14,3 +14,5 @@
 ### Even more links
 
 -   https://www.reddit.com/r/vim/comments/ulphgp/what_are_your_musthave_vimnvim_extensions/
+-   https://iccf-holland.org/vim_books.html (List of many books suggested at the end of vimtutor)
+-   https://iccf-holland.org/vim_books.html#oualline (one of the book specific book recommendation by vimtutor)
