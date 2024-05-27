@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "files.autoSave": "afterDelay"
+}
