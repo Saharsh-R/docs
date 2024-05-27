@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const GITHUB_REPO_URL = 'https://github.com/Saharsh-R/docs' 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Good Links',
+  tagline: 'Some good stuff',
   favicon: 'img/favicon.ico',
 
   url: 'https://srdocs.netlify.app/',
@@ -49,7 +49,13 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      sidebar: {
+        hideable: true, 
+      }
+    },
     navbar: {
+      hideOnScroll: true, 
       title: 'Docs',
       logo: {
         alt: 'My Site Logo',
@@ -60,7 +66,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -77,8 +83,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Docs',
+              to: '/docs/',
             },
           ],
         },
