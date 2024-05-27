@@ -2,7 +2,8 @@
 sidebar_position: 1
 ---
 
-# Interesting Links 
+# Interesting Links
 
-Here is all the interesting stuff I found regarding - 
-- [Vim](Vim/links) 
+Here is all the interesting stuff I found regarding -
+
+-   [Vim](Vim/links)
