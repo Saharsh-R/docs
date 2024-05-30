@@ -4,5 +4,62 @@
     "vim.highlightedyank.enable": true,
     "files.autoSave": "afterDelay",
     "editor.insertSpaces": true,
-    "vim.smartRelativeLine": true
+    "vim.smartRelativeLine": true,
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch b/w buffers
+        { "before": ["<S-h>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+
+        // splits
+        { "before": ["leader", "v"], "commands": [":vsplit"] },
+        // panes
+        {
+            "before": ["leader", "h"],
+            "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before": ["leader", "j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before": ["leader", "k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before": ["leader", "l"],
+            "commands": ["workbench.action.focusRightGroup"]
+        },
+        // NICE TO HAVE
+        { "before": ["leader", "w"], "commands": [":q!"] },
+        { "before": ["leader", "s"], "commands": [":w!"] },
+        {
+            "before": ["<leader>", "f"],
+            "commands": ["editor.action.quickFix"]
+        },
+        {
+            "before": ["leader", "o"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["leader", "p"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["g", "h"],
+            "commands": ["editor.action.showDefinitionPreviewHover"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+        { "before": [">"], "commands": ["editor.action.indentLines"] },
+        // Move selected lines while staying in visual mode
+        { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+        { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
+        // toggle comment selection
+        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    ]
 }
