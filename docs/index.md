@@ -12,5 +12,6 @@ Here is all the interesting stuff I found regarding -
 -   https://www.freecodecamp.org/
 -   https://leetcode.com/
 -   https://github.com/rust-lang/rustlings/ (learn rust)
+-   https://learnxinyminutes.com/ (learn basics of any language)
 -   [Vim](Vim/links)
 -   [DevTools](DevTools/links)
