@@ -7,3 +7,4 @@ build/**
 .husky/pre-commit
 yarn.lock
 git
+*.py
